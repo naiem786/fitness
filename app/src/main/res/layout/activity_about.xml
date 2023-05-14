@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+  <TextView
+      android:id="@+id/textView13"
+      android:layout_width="329dp"
+      android:layout_height="42dp"
+      android:fontFamily="serif"
+      android:shadowColor="#020202"
+      android:text=":-professor Dinesh Banswal "
+      android:textColor="@color/material_dynamic_neutral_variant20"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.806" />
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="204dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="208dp"
+      android:layout_marginTop="11dp"
+      android:layout_marginEnd="166dp"
+      android:layout_marginBottom="176dp"
+      android:fontFamily="serif"
+      android:gravity="bottom"
+      android:text="under the guidance of"
+      android:textColor="#1B7DC8"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_bias="0.096"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintVertical_bias="0.024" />
+
+  <TextView
+      android:id="@+id/textView11"
+      android:layout_width="203dp"
+      android:layout_height="48dp"
+      android:fontFamily="serif"
+      android:shadowColor="#020202"
+      android:text="Project made"
+      android:textColor="@color/black"
+      android:textSize="30dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.74" />
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolar2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#1897ED"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0"
+      app:logo="@drawable/speedometer"
+      app:title="About"
+      app:titleMarginStart="40dp"
+      tools:ignore="MissingConstraints" />
+
+  <TextView
+      android:id="@+id/textView9"
+      android:layout_width="394dp"
+      android:layout_height="281dp"
+      android:fontFamily="serif"
+      android:text="This website require the user to input their weight and height in the respective units (e.g., kilograms and meters) into the BMI calculator. The website would then use the provided data to automatically calculate the BMI using the formula. Based on the calculated BMI, the website would categorize the individual into different BMI categories, such as underweight, normal weight, overweight, or obese. "
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/toolar2"
+      app:layout_constraintVertical_bias="0.0" />
+
+  <TextView
+      android:id="@+id/textView10"
+      android:layout_width="394dp"
+      android:layout_height="98dp"
+      android:layout_marginTop="313dp"
+      android:text="User friendly interface Outputs and results are easy to understand Anyone can use this website It will inspire people to be more fit Is availabel on both mobile and in website format"
+      android:textSize="18dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/toolar2"
+      app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
